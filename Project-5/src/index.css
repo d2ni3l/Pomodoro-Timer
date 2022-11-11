@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,700;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotate {
+  -webkit-animation: rotating 3.4s linear infinite;
+  -moz-animation: rotating 3.4s linear infinite;
+  -ms-animation: rotating 3.4s linear infinite;
+  -o-animation: rotating 3.4s linear infinite;
+  animation: rotating 3.4s linear infinite;
+}
+
+.round{
+  border-radius: .5rem !important;
+}
+
+.afterh3::after{
+  content: '';
+  display: block;
+  /* margin: 0 auto; */
+  width: 35px;
+  padding-top: 8px;
+  opacity: 0.6;
+}
