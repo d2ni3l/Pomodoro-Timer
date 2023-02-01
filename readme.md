@@ -9,6 +9,8 @@ An Pomodoro Timer Application, built with Vite, React, JavaScript, and CSS.
 ## Preview site
 https://pomodorotim3r.netlify.app/
 
+![alt text](https://iili.io/HJrf5bI.png)
+
 
 
 
